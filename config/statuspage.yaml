@@ -1,0 +1,5 @@
+statuspagePageId: wzv88f5vctsh   # Statuspage's pageId. This values should be taken from Statuspage console.
+statuspageServices:              # List of Services. Service is a group to bind multiple components of Statuspage.
+  - service: ServiceA            # Service name. You can define any service name to bind some components. This name is used in `schdule.yaml` file. 
+    description: Service A       # Descripton for Service (option)
+    componentIds: ["pmws92dptvrm", "rww4w99psgsx"] # ComponentId of Statuspage's Component. This values should be taken from Statuspage console.

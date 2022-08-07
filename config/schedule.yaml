@@ -1,0 +1,11 @@
+- service: ServiceA                            # Service name. Defined in `statuspage.yaml` file
+  title: "Maintenance of ServiceA"             # Title of Scheduled Maintenance in Statuspage
+  body: "... {Description for mantenance} ..." # Description of Scheduled Maintenance in Statuspage
+  recurring:
+    - day: everyday       # everyday maintenance
+      start: 10h05m       # start time of maintenance
+      time:  20m          # duration of maintenance
+
+    - day: 2nd saturday   # 2nd saturday in every month
+      start: 20h00m
+      time: 10h00m
