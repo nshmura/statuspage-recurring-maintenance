@@ -17,7 +17,7 @@ var loc, _ = time.LoadLocation("Asia/Tokyo")
 
 // コマンドライン引数から、実行するコマンド情報を読み込む
 func ReadCommand() Command {
-	accessToken := os.Getenv("STATUSPAGE_ACCESS_KEY")
+	accessToken := os.Getenv("STATUSPAGE_API_KEY")
 
 	recurringCmd := flag.NewFlagSet("recurring", flag.ExitOnError)
 	recurringScheduleFilename := recurringCmd.String("schedule", "", "file to load maintenance schedule information")
