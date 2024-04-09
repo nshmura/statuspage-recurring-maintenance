@@ -1,6 +1,6 @@
 # statuspage-recurring-maintenance
 
-A Golng command line tool to register recurring schduled maintence to [Statuspage](https://simply.statuspage.io/).
+A Golang command line tool to register recurring schduled maintence to [Statuspage](https://simply.statuspage.io/).
 
 Blogs: https://nshmura.com/posts/automatic-registration-to-statuspage/
 
