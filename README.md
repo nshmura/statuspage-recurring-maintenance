@@ -1,6 +1,6 @@
 # statuspage-recurring-maintenance
 
-A Golang command line tool to register recurring schduled maintence to [Statuspage](https://www.atlassian.com/ja/software/statuspage).
+A Golang command line tool to register recurring schduled maintence to [Statuspage](https://support.atlassian.com/ja/statuspage/docs/what-is-statuspage/).
 
 Blog: https://nshmura.com/posts/automatic-registration-to-statuspage/
 
