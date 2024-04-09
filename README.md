@@ -2,7 +2,7 @@
 
 A Golang command line tool to register recurring schduled maintence to [Statuspage](https://simply.statuspage.io/).
 
-Blogs: https://nshmura.com/posts/automatic-registration-to-statuspage/
+Blog: https://nshmura.com/posts/automatic-registration-to-statuspage/
 
 # Getting Started
 
